@@ -1,0 +1,32 @@
+article div,
+img {
+  margin: auto;
+  margin-top: 90px;
+}
+article .section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+}
+article .descryption {
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 36px;
+  font-size: 12px;
+  margin-bottom: 52px;
+}
+article a {
+  color: inherit;
+}
+article .descryption p {
+  font-size: 12px;
+}
+article img {
+  width: 600px;
+}
+article h1 {
+  font-size: 30px;
+}
+article p {
+  font-size: 20px;
+}
