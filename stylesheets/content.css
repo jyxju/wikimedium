@@ -1,7 +1,7 @@
 article div,
 img {
   margin: auto;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 article .section {
   background-color: #f0f0f0;
@@ -11,9 +11,8 @@ article .section {
 }
 article .descryption {
   color: rgba(0, 0, 0, 0.4);
-  margin-top: 36px;
   font-size: 12px;
-  margin-bottom: 52px;
+  margin: 0;
 }
 article a {
   color: inherit;
@@ -24,9 +23,30 @@ article .descryption p {
 article img {
   width: 600px;
 }
+article *:not(a) {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 article h1 {
   font-size: 30px;
 }
-article p {
+article h2 {
+  font-size: 24px;
+}
+article h3 {
   font-size: 20px;
+}
+article cite {
+  font-style: italic;
+  position: relative;
+}
+article cite::before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: -12px;
 }
