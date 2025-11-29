@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  box-sizing: border-box;
 }
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "PT Sans", sans-serif;
-  padding-top: 200px;
 }
